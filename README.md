@@ -1,8 +1,8 @@
-# torsocks
+# torsocc
 
-torsocks is a minimal docker image exposing a SOCKS5 proxy for onion routing (tor) over tcp://9050
+torsocc is a minimal docker image exposing a SOCKS5 proxy for onion routing (tor) over tcp://9050
 
-    docker run -p9050:9050 ghcr.io/joshhighet/torsocks:latest
+    docker run -p9050:9050 ghcr.io/joshhighet/torsocc:latest
 
 > cloudflare have an [onion-routable DNS over HTTPS](https://developers.cloudflare.com/1.1.1.1/fun-stuff/dns-over-tor) endpoint available at `dns4torpnlfs2ifuz2s2yf3fc7rdmsbhm6rw75euj35pac6ap25zgqad.onion`
 
@@ -12,7 +12,7 @@ _see [GitHub Actions Service Containers](https://docs.github.com/en/actions/guid
 
 ```yaml
 jobs:
-  torsocks-job:
+  torsocc-job:
     runs-on: ubuntu-latest
     services:
       torproxy:

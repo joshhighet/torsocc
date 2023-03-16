@@ -1,4 +1,4 @@
-name: torsocks/
+name: torsocc/
 on:
   push:
     branches: [ main ]

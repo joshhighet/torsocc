@@ -1,5 +1,5 @@
 FROM alpine:latest
-LABEL org.opencontainers.image.source https://github.com/joshhighet/torsocks
+LABEL org.opencontainers.image.source https://github.com/joshhighet/torsocc
 RUN apk update
 RUN apk upgrade
 RUN apk add tor
