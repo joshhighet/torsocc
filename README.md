@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       torproxy:
-        image: ghcr.io/joshhighet/gotham/torproxy:latest
+        image: ghcr.io/joshhighet/torsocc:latest
         ports:
         - 9050:9050
     steps:
