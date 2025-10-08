@@ -1,0 +1,11 @@
+[proxy]
+socks_listen = "0.0.0.0:9050"
+
+[application]
+allow_running_as_root = false
+
+[bridge]
+enabled = false
+
+[logging]
+level = "warn"
